@@ -8,11 +8,11 @@ public class ContohAntrean2 {
 
         
         daftar.add("Agung Ganteng");   
-        daftar.add("Aminudin");
-        daftar.add("Zaskia");
-        daftar.add("Rina Melati");
-        daftar.add("Farhan");
-        daftar.add("Agnes Monica");
+        daftar.add("Jule");
+        daftar.add("Inara Rusli");
+        daftar.add("Nisa Sabyan");
+        daftar.add("Arhan Pratama");
+        daftar.add("Tom Haye");
         
 
         int pilihan = 0;
