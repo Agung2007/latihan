@@ -6,7 +6,7 @@ public class ContohAntrean2 {
         ArrayDeque<String> daftar = new ArrayDeque<>();
         Scanner input = new Scanner(System.in);
 
-        // Data awal
+        
         daftar.add("Agung Ganteng");   
         daftar.add("Aminudin");
         daftar.add("Zaskia");
@@ -25,13 +25,13 @@ public class ContohAntrean2 {
             System.out.println("4. Keluar");
             System.out.print("Pilih: ");
             pilihan = input.nextInt();
-            input.nextLine(); // buang enter
+            input.nextLine(); 
 
             switch (pilihan) {
 
                 case 1:
                     if (!daftar.isEmpty()) {
-                        String keluar = daftar.remove(); // FIFO
+                        String keluar = daftar.remove(); 
                         System.out.println("Data keluar: " + keluar);
                     } else {
                         System.out.println("Antrean kosong!");
